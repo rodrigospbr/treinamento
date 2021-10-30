@@ -25,6 +25,7 @@ public class Pedido {
 	private String urlProduto;
 	private String urlImagem;
 	private String descricao;
+	private String mensagemVendedor;
 	
 	@Enumerated(EnumType.STRING)
 	private StatusPedido status;
@@ -76,6 +77,10 @@ public class Pedido {
 	}
 	public void setStatus(StatusPedido status) {
 		this.status = status;
+	}
+
+	public void setMensagemVendedor(String mensagemVendedor){
+		this.mensagemVendedor = mensagemVendedor;
 	}
 	
 
