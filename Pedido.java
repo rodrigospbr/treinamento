@@ -82,4 +82,9 @@ public class Pedido {
 	public void setMensagemVendedor(String mensagemVendedor){
 		this.mensagemVendedor = mensagemVendedor;
 	}
+	
+	public String getMensagemVendedor(){
+		return mensagemVendedor;
+	}
+
 }
