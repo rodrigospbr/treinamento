@@ -77,16 +77,8 @@ public class Pedido {
 	public void setStatus(StatusPedido status) {
 		this.status = status;
 	}
-<<<<<<< HEAD
 
 	public void setMensagemVendedor(String mensagemVendedor){
 		this.mensagemVendedor = mensagemVendedor;
-	}
-=======
-	
->>>>>>> parent of 911cdd9 (Novo atributo mensagemVendedor class Pedido.java)
-
-	public String getMensagemVendedor(){
-		return mensagemVendedor;
 	}
 }
