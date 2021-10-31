@@ -25,7 +25,7 @@ public class Pedido {
 	private String urlProduto;
 	private String urlImagem;
 	private String descricao;
-	private String mensagemVendedor
+	private String mensagemVendedor;
 	
 	@Enumerated(EnumType.STRING)
 	private StatusPedido status;
