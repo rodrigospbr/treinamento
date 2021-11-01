@@ -26,6 +26,7 @@ public class Pedido {
 	private String urlImagem;
 	private String descricao;
 	private String mensagemVendedor;
+	private String observacaoReduzida;
 	
 	@Enumerated(EnumType.STRING)
 	private StatusPedido status;
@@ -85,6 +86,10 @@ public class Pedido {
 	
 	public String getMensagemVendedor(){
 		return mensagemVendedor;
+	}
+
+	public void setObservacaoReduzida(String observacaoReduzida){
+		this.observacaoReduzida = observacaoReduzida;
 	}
 
 }
