@@ -92,4 +92,8 @@ public class Pedido {
 		this.observacaoReduzida = observacaoReduzida;
 	}
 
+	public String pedidoToString(){
+		return descricao + observacaoReduzida + mensagemVendedor;
+	}
+
 }
